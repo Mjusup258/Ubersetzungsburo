@@ -3,7 +3,7 @@
     import Sidebar from './Sidebar.svelte'
     import Main from './Main.svelte'
 
-    let open = false
+    let open = true
 </script>
 
 <Sidebar bind:open/>
