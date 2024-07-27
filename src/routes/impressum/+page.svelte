@@ -1,6 +1,6 @@
 <script>
-    import Navbar from './Navbar.svelte'
-    import Sidebar from './Sidebar.svelte'
+    import Navbar from '../Navbar.svelte'
+    import Sidebar from '../Sidebar.svelte'
 
     let open = true
 </script>
