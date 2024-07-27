@@ -16,7 +16,7 @@
         z-index: 50;
     }
     .button {
-        background-color: white;
+        background-color: aliceblue;
         padding: 0.5rem;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         border-radius: 0;

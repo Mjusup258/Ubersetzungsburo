@@ -27,7 +27,11 @@
 </aside>
 
 <style>
+    .block{
+        color:  aliceblue;
+    }
     aside {
+        background-color: #356ba2;
         width: 25%;
         left: 100%;
         transition: left 0.3s ease-in-out
@@ -40,7 +44,7 @@
         text-align: center;
         margin-top: 10px;
         font-size: 0.32cm;
-        color: black;
+        color:  aliceblue;
         line-height: 15px;
     }
     .logo-container {
