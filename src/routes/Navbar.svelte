@@ -19,7 +19,7 @@
         background-color: aliceblue;
         padding: 0.5rem;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        border-radius: 0;
+        border-radius: 3px;
         display: flex;
         justify-content: center;
         align-items: center;
