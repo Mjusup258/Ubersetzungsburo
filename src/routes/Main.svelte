@@ -5,7 +5,7 @@
     <div id="outer">
 
         <main id="content-box" class="order-first">
-            <div class="banner-section section parallax-window" data-parallax="scroll" data-image-src="img/section-1-bg.jpg" id="section-1">
+            <div class="title-container" data-parallax="scroll" data-image-src="img/section-1-bg.jpg" id="section-1">
                 <div class="container">
                     <div class="item">
                         <div class="bg-blue-transparent logo-fa"><span><i class="fas fa-2x fa-home"></i></span> Ubersetzungsbüro<br>Vlado Stanić</div>
@@ -15,26 +15,26 @@
                 </div>
             </div>
         
-            <section class="work-section section" id="section-2">
+            <section class="service-section" id="service">
                 <div class="container">
                     <div class="row">
                         <div class="item col-md-4">
                             <div class="tm-work-item-inner">
-                                <div class="icn"><Icon icon="material-symbols-light:bookmark-star-sharp" /></div>
+                                <div class="service-icn"><Icon icon="material-symbols-light:bookmark-star-sharp" /></div>
                                 <h3>Kompetenz und Professionalität</h3>
                                 <p><b>Alle Texte werden sorgfältig übersetzt und mehrfach geprüft, um ein perfektes Ergebnis zu erzielen.</b></p>
                             </div>                        
                         </div>
                         <div class="item col-md-4 one">
                             <div class="tm-work-item-inner">
-                                <div class="icn"><Icon icon="material-symbols-light:order-approve-sharp" /></div>
+                                <div class="service-icn"><Icon icon="material-symbols-light:order-approve-sharp" /></div>
                                 <h3>Qualitätssicherung</h3>
                                 <p><b>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG). Selbstverständlich behandle ich alle Aufträge vertraulich.</b></p>
                             </div>
                         </div>
                         <div class="item col-md-4 two">
                             <div class="tm-work-item-inner">
-                                <div class="icn"><Icon icon="material-symbols-light:content-paste-search-sharp" /></div>
+                                <div class="service-icn"><Icon icon="material-symbols-light:content-paste-search-sharp" /></div>
                                 <h3>Individuelle Lösungen</h3>
                                 <p><b>Persönlicher Service: <br>Ihre Wünsche stehen im Mittelpunkt.</b> </p>
                             </div>
@@ -43,7 +43,7 @@
                 </div>
             </section>
 
-            <section class="gallery-section section parallax-window" data-parallax="scroll" data-image-src="img/Stack of books.jpg" id="section-3">
+            <section class="about-me-section" data-parallax="scroll" data-image-src="img/Stack of books.jpg" id="About me">
                 <div class="container">
                     <div class="title text-left">
                         <h2>Über mich</h2>
@@ -68,7 +68,7 @@
                 </div>
             </section>
 
-            <section class="contact-section section" id="section-4">
+            <section class="contact-section" id="Contact">
                 <div class="container">
                     <div class="title">
                         <h3>Kontaktieren Sie mich</h3>
@@ -139,7 +139,6 @@
                 </div>
                 <footer class="footer container container-2">
                     <div class="row"> 
-                        <p class="col-sm-7"><i>Copyright 2021 Simply Amazed Co.</i></p>
                         <p class="col-sm-5 text-right design"><i>Design: </i><a rel="nofollow" href="https://www.tooplate.com" target="_parent"><i>Tooplate</i></a></p>
                     </div>
                 </footer>
@@ -150,8 +149,101 @@
 </body>
 
 <style>
-    .lbl{
-        display: flex;
-        align-items: center;
+    .content-box {
+
     }
+    .order-first {
+
+    }
+    .container {
+
+    }
+    .title-container {
+
+    }
+    .item {
+
+    }
+    .bg-blue-transparent logo-fa {
+
+    }
+    .bg-blue-transparent simple {
+
+    }
+
+
+
+
+    .service-section {
+
+    }
+    .service {
+
+    }
+    .row {
+
+    }
+    .item col-md-4 {
+
+    }
+    .tm-work-item-inner {
+
+    }
+    .service-icn {
+
+    }
+    .item col-md-4 one {
+
+    }
+    .item col-md-4 two {
+
+    }
+
+
+
+    .about-me-section {
+
+    }
+    .title text-left {
+
+    }
+    .col-lg-4 col-md-6 mb-4 contact-details {
+
+    }
+
+
+
+    
+    .contact-section {
+
+    }
+    .title {
+
+    }
+    .col-lg-4 col-md-6 mb-4 contact-details {
+
+    }
+    .tm-contact-item-inner-2 {
+
+    }
+    .font-weight-light {
+
+    }
+    .lbl {
+
+    }
+    .icn {
+
+    }
+
+
+
+
+    .footer container container-2 {
+
+    }
+    .col-sm-5 text-right design {
+
+    }
+
 </style>
