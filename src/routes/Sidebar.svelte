@@ -6,7 +6,7 @@
 <aside class="absolute w-full h-full bg-gray-200 border-r-2 shadow-lg" class:open>
     <nav class="p-12 text-xl">
         <div class="logo-container">
-            <img src="./static/favicon.png" alt="Stanic Logo" class="img-logo"/>
+            <img src="/favicon.png" alt="Stanic Logo" class="img-logo"/>
             <div class="img-text">
                 <b id="name">Vlado Stanić</b><br>
                 Staatlich geprüfter Übersetzer für die <br>
