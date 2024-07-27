@@ -5,10 +5,10 @@
 
 <aside class="absolute w-full h-full bg-gray-200 border-r-2 shadow-lg" class:open>
     <nav class="p-12 text-xl">
-        <a class="block" href="#main">Hauptseite</a>
-        <a class="block" href="#service">Service</a>
-        <a class="block" href="#about">Über mich</a>
-        <a class="block" href="#kontakt">Kontakt</a>
+        <a class="block" href="#main"><Icon icon="material-symbols-light:home" />Hauptseite</a>
+        <a class="block" href="#service"><Icon icon="material-symbols-light:account-tree" />Service</a>
+        <a class="block" href="#about"><Icon icon="material-symbols-light:frame-person-sharp" />Über mich</a>
+        <a class="block" href="#kontakt"><Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt</a>
         <a class="block" href="#impressum"><Icon icon="icomoon-free:section" />Impressum</a>
     </nav>
 </aside>
