@@ -1,13 +1,33 @@
 <script>
-    import Logo from './Logo.svelte'
-    import Hamburger from './Hamburger.svelte'
+    import Hamburger from './Hamburger.svelte';
 
-    export let sidebar = false
+    export let sidebar = false;
+
+    function toggleSidebar() {
+        sidebar = !sidebar;
+    }
 </script>
 
-<header class="flex justify-between bg-gray-200 p-2 items-center text-gray-600 border-b-2">
-    <nav class="flex w-full">
-        <Logo/>
-    </nav>
-    <Hamburger bind:open={sidebar} class="ml-auto"/>
-</header>
+<style>
+    .navbar {
+        position: fixed;
+        top: 1rem; /* Adjust this value as needed */
+        right: 1rem; /* Adjust this value as needed */
+        z-index: 50;
+    }
+    .button {
+        background-color: white;
+        padding: 0.5rem;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<div class="navbar">
+    <button on:click={toggleSidebar} class="button">
+        <Hamburger bind:on={sidebar}/>
+    </button>
+</div>

@@ -23,4 +23,13 @@
     .open {
         left: 75%;
     }
+    @media (max-width: 768px) {
+        aside {
+            width: 100%;
+        }
+
+        .open {
+            left: 0;
+        }
+    }
 </style>
