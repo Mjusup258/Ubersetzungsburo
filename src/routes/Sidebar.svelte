@@ -28,6 +28,8 @@
 
 <style>
     .block{
+        display: flex;
+        align-items: center;
         color:  aliceblue;
     }
     aside {
