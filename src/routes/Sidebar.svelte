@@ -6,7 +6,7 @@
 <aside class="absolute w-full h-full bg-gray-200 border-r-2 shadow-lg" class:open>
     <nav class="p-12 text-xl">
         <div class="logo-container">
-            <img src="./static/favicon.png" alt="Stanic Logo" class="img-logo"/>
+            <img src="/favicon.png" alt="Stanic Logo" class="img-logo"/>
             <div class="img-text">
                 <b id="name">Vlado Stanić</b><br>
                 Staatlich geprüfter Übersetzer für die <br>
@@ -18,19 +18,27 @@
                 Mob: +49 171 2971506
             </div>
         </div>
-        <a class="block" href="#main"><Icon icon="material-symbols-light:home" />Hauptseite</a>
-        <a class="block" href="#service"><Icon icon="material-symbols-light:account-tree" />Service</a>
-        <a class="block" href="#about"><Icon icon="material-symbols-light:frame-person-sharp" />Über mich</a>
-        <a class="block" href="#kontakt"><Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt</a>
-        <a class="block" href="#impressum"><Icon icon="icomoon-free:section" />Impressum</a>
+        <div class="container"><a class="block" href="#main"><Icon icon="material-symbols-light:home" />Hauptseite</a></div>
+        <div class="container"><a class="block" href="#service"><Icon icon="material-symbols-light:account-tree" />Service</a></div>
+        <div class="container"><a class="block" href="#about"><Icon icon="material-symbols-light:frame-person-sharp" />Über mich</a></div>
+        <div class="container"><a class="block" href="#kontakt"><Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt</a></div>
+        <div class="container"><a class="block" href="#impressum"><Icon icon="icomoon-free:section" />Impressum</a></div>
     </nav>
 </aside>
 
 <style>
+    .container {
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
     .block{
         display: flex;
         align-items: center;
         color:  aliceblue;
+    }
+    .block:hover {
+        color: #aec8e3;
     }
     aside {
         background-color: #356ba2;
