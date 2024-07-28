@@ -3,8 +3,9 @@
     import Sidebar from './Sidebar.svelte'
     import Main from './Main.svelte'
 
-    let open = false
+    let open = true
 </script>
+
 <title>Übersetzungsbüro Vlado Stanić</title>
 <Sidebar bind:open/>
 <Navbar bind:sidebar={open}/>

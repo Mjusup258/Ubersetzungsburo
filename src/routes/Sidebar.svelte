@@ -20,7 +20,7 @@
         </div>
         <div class="spacer"></div>
         <div class="container">
-            <a class="block" href="#main">
+            <a class="block" href="/">
                 <Icon icon="material-symbols-light:home" style="font-size: 30px; margin-right: 10px;"/>Hauptseite
             </a>
         </div>
@@ -65,6 +65,7 @@
         color: #aec8e3;
     }
     aside {
+        z-index: 50;
         position: fixed;
         background-color: #356ba2;
         width: 25%;

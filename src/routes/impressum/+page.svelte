@@ -2,7 +2,7 @@
     import Navbar from '../Navbar.svelte'
     import Sidebar from '../Sidebar.svelte'
 
-    let open = true
+    let open = false
 </script>
 
 <title>Übersetzungsbüro Vlado Stanić</title>
