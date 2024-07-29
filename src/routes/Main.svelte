@@ -1,11 +1,10 @@
 <script>
     import Icon from '@iconify/svelte';
-
 </script>
 <body>
 
     <main>
-        <div class="title-section image">
+        <div class="title-section image" data-parallax="scroll" id="section-1">
             <div class="container">
                 <div class="item">
                     <div class="bg-blue-transparent logo-fa">Ubersetzungsbüro<br>Vlado Stanić</div>
@@ -19,7 +18,7 @@
             </div>
         </div>
 
-        <section class="service-section">
+        <section class="service-section" id="service">
             <div class="container">
                 <div class="row">
                     <div class="item col-md-4">
@@ -47,7 +46,7 @@
             </div>
         </section>
 
-        <section class="about-me-section" data-image-src="/Stack of books.jpg" id="About me">
+        <section class="about-me-section" data-parallax="scroll" data-image-src="/Stack of books.jpg" id="About me">
             <div class="container">
                 <div class="title text-left">
                     <h2>Über mich</h2>
@@ -221,7 +220,6 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
     }
 
     /* <<< Service section (formerly known as work-section) >>> */
@@ -232,9 +230,9 @@
         min-height: 850px;
         background-color: #6699cc;
     }
-    .service-section .container {
-        max-width: 1242px;
-    }
+    .service-section .container { max-width: 1242px; }
+
+
 
     .tm-work-item-inner {
         max-width: 360px;
@@ -250,16 +248,12 @@
     }
 
 
-    .service-section .item.one {
-        margin-top: 80px;
-    }
+    .service-section .item.one { margin-top: 80px; }
     @media (max-width: 767px) {
         .service-section .item.one { margin-top: 0;}
     }
 
-    .service-section .item.two {
-        margin-top: 80px;
-    }
+    .service-section .item.two { margin-top: 80px; }
 
     @media (max-width: 767px) {
         .service-section .item.two { margin-top: 0; }
@@ -300,6 +294,7 @@
         margin-bottom: 9px;
 
     }
+
     .service-section .item p {
         color: #fff;
         line-height: 31px;
@@ -307,14 +302,5 @@
         font-weight: lighter;
     }
 
-    .service-section .item p {
-        color: #fff;
-        line-height: 31px;
-        margin-bottom: 0;
-    }
-    .service-section .title h2 {
-        color: #fff;
-        font-size: 32px;
-        margin-bottom: 12px;
-    }
+
 </style>
