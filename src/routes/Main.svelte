@@ -154,17 +154,19 @@
         align-items: flex-start;
     }
 
-    .bg-blue-transparent { background-color: rgb(102 153 204 / 0.8); }
+    .bg-blue-transparent {
+        background-color: rgb(102 153 204 / 0.8);
+    }
 
     .title-section .logo-fa {
         color: #fff;
         max-width: 400px;
+        margin-bottom: 60px;
         margin-left: 50px;
         padding-top: 43px;
         padding-bottom: 35px;
         font-size: 40px;
-        margin-bottom: 60px;
-        font-family: "Roboto Light";
+        font-family: "Roboto Light",serif;
     }
 
     @media (max-width: 991px) {
@@ -185,7 +187,7 @@
         margin: auto;
         margin-left: 97px;
         padding: 33px 68px 34px 68px;
-        font-family: Verdana;
+        font-family: Verdana,serif;
     }
 
     @media (max-width: 991px) {
@@ -210,5 +212,13 @@
     }
     .image {
         background-image: url("/section-1-bg.jpg");
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        opacity: 0.8;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 </style>
