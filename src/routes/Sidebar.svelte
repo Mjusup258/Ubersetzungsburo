@@ -105,7 +105,13 @@
         display: flex;
         font-size: 25px;
         margin-top: 15px;
-        margin-left: 40px;
+        margin-left: calc(15%);
+    }
+    @media (max-width: 1000px) {
+        .container {
+            justify-content: space-around;
+            margin-left: calc(10% - 10px);
+        }
     }
     @media (max-width: 768px) {
         .container {
