@@ -1,8 +1,16 @@
 <script>
     import Icon from '@iconify/svelte';
+    import { onMount } from 'svelte';
 
     export let open = true
+
+    let baseUrl =  '';
+    onMount(() => {
+        let currentPath = window.location.pathname;
+        baseUrl = currentPath === '/impressum' ? '/' : '';
+    });
 </script>
+
 <aside class="absolute w-full h-full bg-gray-200 border-r-2 shadow-lg" class:open>
     <nav class="p-12 text-xl">
         <div class="logo-container">
@@ -25,17 +33,17 @@
             </a>
         </div>
         <div class="container">
-            <a class="block" href="#service">
+            <a class="block" href={baseUrl + "#service"}>
                 <Icon icon="material-symbols-light:account-tree" />Service
             </a>
         </div>
         <div class="container">
-            <a class="block" href="#about">
+            <a class="block" href={baseUrl + "#about"}>
                 <Icon icon="material-symbols-light:frame-person-sharp" />Über mich
             </a>
         </div>
         <div class="container">
-            <a class="block" href="#kontakt">
+            <a class="block" href={baseUrl +"#kontakt"}>
                 <Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt
             </a>
         </div>
