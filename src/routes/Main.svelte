@@ -227,7 +227,14 @@
         margin-right: auto;
         margin-bottom: 30px;
     }
-
+    .service-section .item {
+            margin-right: 40px;
+    }
+    @media (max-width: 1400px) {
+        .service-section .item {
+            margin-right: 0;
+        }
+    }
     @media (max-width: 767px) {
         .service-section .item {
             text-align: center;
