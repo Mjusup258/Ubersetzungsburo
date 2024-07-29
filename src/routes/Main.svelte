@@ -10,9 +10,9 @@
                     <div class="bg-blue-transparent logo-fa">Ubersetzungsbüro<br>Vlado Stanić</div>
                     <div class="bg-blue-transparent simple">
                         <p>
-                            <b>Vereidigte Übersetzer für die</b>
+                            Vereidigte Übersetzer für die
                             <br>
-                            <b>bosnische, kroatische und serbische Sprache.</b></p></div>
+                            bosnische, kroatische und serbische Sprache. </p></div>
 
                 </div>
             </div>
@@ -22,21 +22,21 @@
             <div class="container">
                 <div class="row">
                     <div class="item col-md-4">
-                        <div class="tm-work-item-inner">
+                        <div class="tm-service-item-inner">
                             <div class="service-icn"><Icon icon="material-symbols-light:bookmark-star-sharp" /></div>
                             <h3>Kompetenz und Professionalität</h3>
                             <p><b>Alle Texte werden sorgfältig übersetzt und mehrfach geprüft, um ein perfektes Ergebnis zu erzielen.</b></p>
                         </div>
                     </div>
                     <div class="item col-md-4 one">
-                        <div class="tm-work-item-inner">
+                        <div class="tm-service-item-inner">
                             <div class="service-icn"><Icon icon="material-symbols-light:order-approve-sharp" /></div>
                             <h3>Qualitätssicherung</h3>
                             <p><b>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG). Selbstverständlich behandle ich alle Aufträge vertraulich.</b></p>
                         </div>
                     </div>
                     <div class="item col-md-4 two">
-                        <div class="tm-work-item-inner">
+                        <div class="tm-service-item-inner">
                             <div class="service-icn"><Icon icon="material-symbols-light:content-paste-search-sharp" /></div>
                             <h3>Individuelle Lösungen</h3>
                             <p><b>Persönlicher Service: <br>Ihre Wünsche stehen im Mittelpunkt.</b> </p>
@@ -46,23 +46,22 @@
             </div>
         </section>
 
-        <section class="about-me-section" data-parallax="scroll" data-image-src="/Stack of books.jpg" id="About me">
+        <section class="about-me-section" data-parallax="scroll" data-image-src="/Stack of books.jpg" id="about">
             <div class="container">
                 <div class="title text-left">
-                    <h2>Über mich</h2>
+                    <h3>Über mich</h3>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 contact-details">
-                    <div class="tm-work-item-inner">
-                        <p></p>
+                <div class="about-me-details">
+                    <div class="about-me-details-box">
                         <ul class="tm-work-item-inner">
                             <li>
-                                <p><b>Staatlich geprüfter, öffentlich bestellter und beeidigter Übersetzer für die bosnische, kroatische und serbische Sprache.</b></p>
+                                <p>Staatlich geprüfter, öffentlich bestellter und beeidigter Übersetzer für die bosnische, kroatische und serbische Sprache.</p>
                             </li>
                             <li>
-                               <p><b>Maschinenbauingenieur Uni Zagreb - Konstrukteur im Bereich der Telekommunikation.</b></p>
+                               <p>Maschinenbauingenieur Uni Zagreb - Konstrukteur im Bereich der Telekommunikation.</p>
                             </li>
                             <li>
-                                <p><b>Tennislehrer / C-Lizenz / <br>Bayerischer Tennis-Verband</b></p>
+                                <p>Tennislehrer / C-Lizenz / <br>Bayerischer Tennis-Verband</p>
                             </li>
                         </ul>
                     </div>
@@ -71,7 +70,7 @@
             </div>
         </section>
 
-        <section class="contact-section" id="Contact">
+        <section class="contact-section" id="kontakt">
             <div class="container">
                 <div class="title">
                     <h3>Kontaktieren Sie mich</h3>
@@ -96,7 +95,7 @@
                             </form>
                         </div>
                     </div>-->
-                    <div class="col-lg-4 col-md-6 mb-4 contact-details">
+                    <div class="contact-details">
                         <div class="tm-contact-item-inner-2">
                             <p><b>Haben Sie Fragen?  <br> Ich stehe Ihnen gerne zur Verfügung.</b></p>
                             <ul class="font-weight-light">
@@ -146,12 +145,14 @@
 </body>
 
 <style>
+
     .title-section {
         position: relative;
         text-align: center;
         background-color: #99ccff;
         padding-top: 121px;
         align-items: flex-start;
+        font-family: 'Inter', sans-serif;
     }
 
     .bg-blue-transparent {
@@ -166,7 +167,6 @@
         padding-top: 43px;
         padding-bottom: 35px;
         font-size: 40px;
-        font-family: "Roboto Light",serif;
     }
 
     @media (max-width: 991px) {
@@ -229,12 +229,11 @@
         padding-bottom: 90px!important;
         min-height: 850px;
         background-color: #6699cc;
+        font-family: 'Inter', sans-serif;
     }
     .service-section .container { max-width: 1242px; }
 
-
-
-    .tm-work-item-inner {
+    .tm-service-item-inner {
         max-width: 360px;
         margin-left: auto;
         margin-right: auto;
@@ -246,7 +245,6 @@
             margin-bottom: 30px;
         }
     }
-
 
     .service-section .item.one { margin-top: 80px; }
     @media (max-width: 767px) {
@@ -296,11 +294,141 @@
     }
 
     .service-section .item p {
-        color: #fff;
         line-height: 31px;
         margin-bottom: 0;
         font-weight: lighter;
     }
+
+    /* <<< About-me-section (formerly known as gallery-section) >>> */
+
+    .about-me-section {
+        background-color: #99ccff;
+        font-family: 'Inter', sans-serif;
+    }
+    .about-me-section .title {
+        padding-top: 50px;
+        padding-left: 100px;
+        margin-bottom: 50px;
+        font-size: 34px;
+    }
+
+    @media (max-width: 767px) {
+        .about-me-section .title { margin-bottom: 40px; }
+    }
+
+    .about-me-details p {
+
+        line-height: 31px;
+        margin-bottom: 38px;
+        color: #111844;
+        font-weight: 600;
+    }
+    .tm-work-item-inner {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .about-me-details ul {
+        list-style-type: circle;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .about-me-details ul li {
+        margin-bottom: 4px;
+    }
+
+    .about-me-details ul li .lbl {
+        display: inline-block;
+        max-width: 55px;
+        width: 100%;
+    }
+
+    .about-me-details ul li a {
+        text-decoration: none;
+    }
+
+    .about-me-details ul li a:hover { color: #99ccff; }
+
+    .tm-work-item-inner {
+        margin-left: 200px; /*about me text location */
+        margin-right: auto;
+
+    }
+
+
+
+
+    /* <<< Contact-section >>> */
+
+    .contact-section {
+        background-color: #6699cc;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+    }
+    .contact-section .title {
+        padding-top: 50px;
+        padding-left: 100px;
+        margin-bottom: 50px;
+        color: #fff;
+        font-size: 34px;
+    }
+
+    .contact-section .contact-form .form-group { margin-bottom: 24px; }
+    .tm-contact-item-inner { max-width: 360px; }
+    .tm-contact-item-inner-2 { max-width: 330px; }
+
+    .tm-contact-item-inner-2 {
+        margin-left: 200px; /*contact text location */
+        margin-right: auto;
+    }
+
+    @media (max-width: 767px) {
+        .contact-section .contact-details { margin-bottom: 30px; }
+    }
+
+    .contact-section .contact-details p {
+        color: #fff;
+        line-height: 31px;
+        margin-bottom: 38px;
+    }
+
+    .contact-section .contact-details ul {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-section .contact-details ul li {
+        color: #fff;
+        margin-bottom: 4px;
+    }
+
+    .contact-section .contact-details ul li .icn {
+        margin-right: 10px;
+        display: inline-block;
+        width: 10px;
+        text-align: center;
+        font-size: larger;
+        transform: translateY(3px); /* Moves the icon 3px down */
+    }
+
+    .contact-section .contact-details ul li .lbl {
+        display: inline-block;
+        max-width: 55px;
+        width: 100%;
+    }
+
+    .contact-section .contact-details ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .contact-section .contact-details ul li a:hover { color: #99ccff; }
+    .contact-section .map { text-align: center; }
 
 
 </style>
