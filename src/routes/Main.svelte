@@ -211,4 +211,86 @@
     .image {
         background-image: url("/section-1-bg.jpg");
     }
+
+    /* <<< Service section (formerly known as work-section) >>> */
+
+    .service-section {
+        padding-top: 90px!important;
+        padding-bottom: 90px!important;
+        min-height: 850px;
+        background-color: #6699cc;
+    }
+    .service-section .container { max-width: 1242px; }
+
+
+
+    .tm-work-item-inner {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 767px) {
+        .service-section .item {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+
+    .service-section .item.one { margin-top: 80px; }
+    @media (max-width: 767px) {
+        .service-section .item.one { margin-top: 0;}
+    }
+
+    .service-section .item.two { margin-top: 80px; }
+
+    @media (max-width: 767px) {
+        .service-section .item.two { margin-top: 0; }
+    }
+
+
+    .service-section .item .service-icn {
+        width: 119px;
+        height: 119px;
+        display: block;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        color: #fff;
+        font-size: 82px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+
+    }
+
+    .service-icn {
+        margin: 0 auto 20px;
+        max-width: 767px;
+    }
+
+    .service-section .item h3 {
+        color: #111844;
+        text-transform: uppercase;
+        font-size: 27px;
+        margin-bottom: 9px;
+
+    }
+
+    .service-section .item p {
+        color: #fff;
+        line-height: 31px;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+
+
 </style>
