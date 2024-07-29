@@ -75,7 +75,7 @@
                 <div class="title">
                     <h3>Kontaktieren Sie mich</h3>
                 </div>
-                <div class="row">
+                <div class>
                     <div class="contact-details">
                         <div class="tm-contact-item-inner-2">
                             <p><b>Haben Sie Fragen?  <br> Ich stehe Ihnen gerne zur Verfügung.</b></p>
@@ -228,7 +228,7 @@
         margin-bottom: 30px;
     }
     .service-section .item {
-            margin-right: 40px;
+        margin-right: 40px;
     }
     @media (max-width: 1400px) {
         .service-section .item {
@@ -349,7 +349,7 @@
     }
     .tm-work-item-inner {
         max-width: 360px;
-        margin-left: auto;
+        margin-left: 200px; /*about me text location */
         margin-right: auto;
         margin-bottom: 30px;
     }
@@ -366,7 +366,7 @@
 
     .about-me-details ul li .lbl {
         display: inline-block;
-        max-width: 55px;
+        max-width: 80px;
         width: 100%;
     }
 
@@ -378,11 +378,7 @@
         color: #99ccff;
     }
 
-    .tm-work-item-inner {
-        margin-left: 200px; /*about me text location */
-        margin-right: auto;
 
-    }
 
 
 
