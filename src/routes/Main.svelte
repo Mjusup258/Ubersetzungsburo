@@ -92,7 +92,6 @@
                                     <span class="icn"><Icon icon="material-symbols-light:phone-iphone-sharp" /></span>
                                     <span class="lbl">Mob:</span> <a href="+49 171 2971506">+49 171 2971506</a>
                                 </li>
-                                <br>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:stacked-email-sharp" /></span>
                                     <span class="lbl">Email:</span> <a href="vlado.stanic@vodafonemail.de">vlado.stanic@vodafonemail.de</a>
@@ -165,7 +164,6 @@
     .title-section .simple {
         color: #fff;
         display: inline-block;
-        margin: auto;
         margin-left: 97px;
         padding: 33px 68px 34px 68px;
         font-family: Verdana,serif;
@@ -213,7 +211,8 @@
         font-family: 'Inter', sans-serif;
     }
     .service-section .container {
-        max-width: 1242px;
+        display: flex;
+        margin-left: 5%;
     }
 
     .tm-service-item-inner {
@@ -222,13 +221,13 @@
         margin-right: auto;
         margin-bottom: 30px;
     }
+
     @media (max-width: 767px) {
         .service-section .item {
             text-align: center;
             margin-bottom: 30px;
         }
     }
-
 
     .service-section .item.one {
         margin-top: 80px;
@@ -240,13 +239,12 @@
     }
 
     .service-section .item.two {
-        margin-top: 80px;
+        margin-top: 160px;
     }
 
     @media (max-width: 767px) {
         .service-section .item.two { margin-top: 0; }
     }
-
 
     .service-section .item .service-icn {
         width: 119px;
@@ -288,7 +286,7 @@
     }
     @media (min-width: 1200px) {
         .row {
-            --bs-gutter-x: 1.5rem;
+            --bs-gutter-x: 1rem;
             --bs-gutter-y: 0;
             display: flex;
             flex-wrap: wrap;
@@ -298,8 +296,7 @@
         }
 
         .col-md-4 {
-            flex: 0 0 auto;
-            width: calc((85%) * 0.33);
+            flex: 0 0 calc((100% - 15%) / 3);
         }
     }
     /* <<< About-me-section (formerly known as gallery-section) >>> */
