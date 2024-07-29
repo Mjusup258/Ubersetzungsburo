@@ -103,16 +103,18 @@
     }
     .container {
         display: flex;
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 15px;
+        margin-left: 40px;
     }
     @media (max-width: 768px) {
         .container {
             justify-content: space-around;
+            margin-left: 0;
         }
     }
     .container :global(svg) {
-        font-size: 30px;
+        font-size: 35px;
         margin-right: 10px;
     }
     .block {
