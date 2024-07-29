@@ -222,9 +222,14 @@
 
     .service-section {
         height: 100vh;
-        padding-top: 90px!important;
+        padding-top: 100px!important;
         padding-bottom: 90px!important;
         background-color: #6699cc;
+    }
+    @media (min-width: 1200px) {
+        .service-section{
+            padding-top: 100px !important;
+        }
     }
     @media (max-width: 1200px) {
         .service-section {
@@ -259,7 +264,7 @@
     }
 
     .service-section .item.one {
-        margin-top: 80px;
+        margin-top: 150px;
     }
     @media (max-width: 767px) {
         .service-section .item.one {
@@ -268,7 +273,7 @@
     }
 
     .service-section .item.two {
-        margin-top: 160px;
+        margin-top: 300px;
     }
 
     @media (max-width: 767px) {
