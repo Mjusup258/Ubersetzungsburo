@@ -3,12 +3,16 @@
 </script>
 <body>
 
-    <main id="content-box">
+    <main>
         <div class="title-section image" data-parallax="scroll" id="section-1">
             <div class="container">
                 <div class="item">
                     <div class="bg-blue-transparent logo-fa">Ubersetzungsbüro<br>Vlado Stanić</div>
-                    <div class="bg-blue-transparent simple"><p><b>Vereidigte Übersetzer für die </b><br><b>bosnische, kroatische und serbische Sprache.</b></p></div>
+                    <div class="bg-blue-transparent simple">
+                        <p>
+                            <b>Vereidigte Übersetzer für die</b>
+                            <br>
+                            <b>bosnische, kroatische und serbische Sprache.</b></p></div>
 
                 </div>
             </div>
@@ -42,7 +46,7 @@
             </div>
         </section>
 
-        <section class="about-me-section" data-parallax="scroll" data-image-src="../../static/Stack of books.jpg" id="About me">
+        <section class="about-me-section" data-parallax="scroll" data-image-src="/Stack of books.jpg" id="About me">
             <div class="container">
                 <div class="title text-left">
                     <h2>Über mich</h2>
@@ -142,10 +146,6 @@
 </body>
 
 <style>
-    #content-box {
-
-    }
-    /* <<< Banner side >>> */
     .title-section {
         position: relative;
         text-align: center;
@@ -159,11 +159,12 @@
     .title-section .logo-fa {
         color: #fff;
         max-width: 400px;
-        margin-left: 5px;
+        margin-left: 50px;
         padding-top: 43px;
         padding-bottom: 35px;
-        font-size: 32px;
+        font-size: 40px;
         margin-bottom: 60px;
+        font-family: "Roboto Light";
     }
 
     @media (max-width: 991px) {
@@ -184,6 +185,7 @@
         margin: auto;
         margin-left: 97px;
         padding: 33px 68px 34px 68px;
+        font-family: Verdana;
     }
 
     @media (max-width: 991px) {
@@ -207,7 +209,6 @@
         .title-section .simple p { font-size: 18px; }
     }
     .image {
-        background-image: url("../../static/section-1-bg.jpg");
-
+        background-image: url("/section-1-bg.jpg");
     }
 </style>

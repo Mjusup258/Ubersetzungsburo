@@ -21,39 +21,101 @@
         <div class="spacer"></div>
         <div class="container">
             <a class="block" href="/">
-                <Icon icon="material-symbols-light:home" style="font-size: 30px; margin-right: 10px;"/>Hauptseite
+                <Icon icon="material-symbols-light:home" />Hauptseite
             </a>
         </div>
         <div class="container">
             <a class="block" href="#service">
-                <Icon icon="material-symbols-light:account-tree" style="font-size: 30px; margin-right: 10px;"/>Service
+                <Icon icon="material-symbols-light:account-tree" />Service
             </a>
         </div>
         <div class="container">
             <a class="block" href="#about">
-                <Icon icon="material-symbols-light:frame-person-sharp" style="font-size: 30px; margin-right: 10px;"/>Über mich
+                <Icon icon="material-symbols-light:frame-person-sharp" />Über mich
             </a>
         </div>
         <div class="container">
             <a class="block" href="#kontakt">
-                <Icon icon="material-symbols-light:perm-phone-msg-sharp" style="font-size: 30px; margin-right: 10px;"/>Kontakt
+                <Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt
             </a>
         </div>
         <div class="container">
             <a class="block" href="/impressum">
-                <Icon icon="icomoon-free:section" style="font-size: 30px; margin-right: 10px;"/>Impressum
+                <Icon icon="icomoon-free:section"/>Impressum
             </a>
         </div>
     </nav>
 </aside>
 
 <style>
+    aside {
+        z-index: 50;
+        position: fixed;
+        background-color: #356ba2;
+        width: 25%;
+        left: 100%;
+        transition: left 0.3s ease-in-out
+    }
+    @media (max-width: 768px) {
+        aside {
+            width: 100%;
+        }
+    }
+
+    #name {
+        font-size: 20px;
+    }
+
+    .open {
+        left: 75%;
+    }
+    @media (max-width: 768px) {
+        .open {
+            left: 0;
+        }
+    }
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .img-logo {
+        max-width: 240px;
+    }
+    .img-text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 0.32cm;
+        color:  aliceblue;
+        line-height: 15px;
+    }
+    @media (max-width: 768px) {
+        .img-text {
+            font-size: 0.4cm;
+        }
+    }
+    .img-logo{
+        max-width: 160px;
+    }
+    .spacer {
+        height: 20px;
+    }
     .container {
         display: flex;
         font-size: 20px;
         margin-top: 15px;
     }
-    .block{
+    @media (max-width: 768px) {
+        .container {
+            justify-content: space-around;
+        }
+    }
+    .container :global(svg) {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .block {
         display: flex;
         color:  aliceblue;
         align-items: center;
@@ -63,54 +125,5 @@
     }
     .block:hover {
         color: #aec8e3;
-    }
-    aside {
-        z-index: 50;
-        position: fixed;
-        background-color: #356ba2;
-        width: 25%;
-        left: 100%;
-        transition: left 0.3s ease-in-out
-    }
-
-    .open {
-        left: 75%;
-    }
-    .img-text {
-        text-align: center;
-        margin-top: 10px;
-        font-size: 0.32cm;
-        color:  aliceblue;
-        line-height: 15px;
-    }
-    .img-logo {
-        max-width: 240px;
-    }
-    .logo-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .spacer {
-        height: 20px;
-    }
-    @media (max-width: 768px) {
-        aside {
-            width: 100%;
-        }
-
-        .open {
-            left: 0;
-        }
-        .img-text {
-            font-size: 0.4cm;
-        }
-        .img-logo{
-            max-width: 160px;
-        }
-        .container{
-            justify-content: space-around;
-        }
     }
 </style>
