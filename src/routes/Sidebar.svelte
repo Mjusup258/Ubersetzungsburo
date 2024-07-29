@@ -106,6 +106,7 @@
         font-size: 25px;
         margin-top: 15px;
         margin-left: calc(15%);
+        letter-spacing: -0.7px;
     }
     @media (max-width: 1000px) {
         .container {

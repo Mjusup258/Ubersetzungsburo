@@ -2,17 +2,17 @@
     import Icon from '@iconify/svelte';
 </script>
 
-<body>
+<body class="montserrat">
     <main>
         <div class="title-section t-image">
             <div class="container">
                 <div class="item">
-                    <div class="bg-blue-transparent logo-fa">Ubersetzungsbüro<br>Vlado Stanić</div>
+                    <div class="bg-blue-transparent logo-fa"><b>Ubersetzungsbüro<br>Vlado Stanić</b></div>
                     <div class="bg-blue-transparent simple">
                         <p>
                             Vereidigte Übersetzer für die
-                            <br>
-                            bosnische, kroatische und serbische Sprache. </p></div>
+                            <br><b>
+                            bosnische, kroatische und serbische Sprache. </b></p></div>
 
                 </div>
             </div>
@@ -25,21 +25,21 @@
                         <div class="tm-service-item-inner">
                             <div class="service-icn"><Icon icon="material-symbols-light:bookmark-star-sharp" /></div>
                             <h3>Kompetenz und Professionalität</h3>
-                            <p><b>Alle Texte werden sorgfältig übersetzt und mehrfach geprüft, um ein perfektes Ergebnis zu erzielen.</b></p>
+                            <p>Alle Texte werden sorgfältig übersetzt und mehrfach geprüft, um ein perfektes Ergebnis zu erzielen.</p>
                         </div>
                     </div>
                     <div class="item col-md-4 one">
                         <div class="tm-service-item-inner">
                             <div class="service-icn"><Icon icon="material-symbols-light:order-approve-sharp" /></div>
                             <h3>Qualitätssicherung</h3>
-                            <p><b>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG). Selbstverständlich behandle ich alle Aufträge vertraulich.</b></p>
+                            <p>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG). Selbstverständlich behandle ich alle Aufträge vertraulich.</p>
                         </div>
                     </div>
                     <div class="item col-md-4 two">
                         <div class="tm-service-item-inner">
                             <div class="service-icn"><Icon icon="material-symbols-light:content-paste-search-sharp" /></div>
                             <h3>Individuelle Lösungen</h3>
-                            <p><b>Persönlicher Service: <br>Ihre Wünsche stehen im Mittelpunkt.</b> </p>
+                            <p>Persönlicher Service: <br>Ihre Wünsche stehen im Mittelpunkt. </p>
                         </div>
                     </div>
                 </div>
@@ -92,6 +92,7 @@
                                     <span class="icn"><Icon icon="material-symbols-light:phone-iphone-sharp" /></span>
                                     <span class="lbl">Mob:</span> <a href="+49 171 2971506">+49 171 2971506</a>
                                 </li>
+                                <br>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:stacked-email-sharp" /></span>
                                     <span class="lbl">Email:</span> <a href="vlado.stanic@vodafonemail.de">vlado.stanic@vodafonemail.de</a>
@@ -102,7 +103,10 @@
                                 </li>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:location-on" /></span>
-                                    <span class="lbl">Ort:</span> <a href="https://maps.app.goo.gl/RLtDzeDvMFikXjkx5">Friedenstr. 16, 90765 Fürth</a>
+                                    <span class="lbl">Ort:</span>
+                                    <a href="https://maps.app.goo.gl/RLtDzeDvMFikXjkx5" target="_blank" rel="noopener noreferrer">
+                                        Friedenstr. 16, 90765 Fürth
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -125,14 +129,22 @@
 </body>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    .montserrat {
+         font-family: "Montserrat", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: 302;
+         font-style: normal;
+    }
     .title-section {
         position: relative;
         text-align: center;
         background-color: #99ccff;
         padding-top: 121px;
         align-items: flex-start;
-        font-family: 'Inter', sans-serif;
+        letter-spacing: -0.8px;
     }
+
 
     .bg-blue-transparent {
         background-color: rgb(102 153 204 / 0.8);
@@ -145,8 +157,8 @@
         margin-left: 50px;
         padding-top: 43px;
         padding-bottom: 35px;
-        font-size: 40px;
-        font-family: "Roboto Light",serif;
+        font-size: 35px;
+        background-color: rgb(102 153 204);
     }
 
     @media (max-width: 991px) {
@@ -166,7 +178,6 @@
         display: inline-block;
         margin-left: 97px;
         padding: 33px 68px 34px 68px;
-        font-family: Verdana,serif;
     }
 
     @media (max-width: 991px) {
@@ -214,13 +225,13 @@
         padding-top: 90px!important;
         padding-bottom: 90px!important;
         background-color: #6699cc;
-        font-family: 'Inter', sans-serif;
     }
     @media (max-width: 1200px) {
         .service-section {
             height: 100%;
         }
     }
+
     .service-section .container {
         display: flex;
         margin-left: 5%;
@@ -291,16 +302,20 @@
     }
 
     .service-section .item h3 {
-        color: #111844;
+        color: #12355b;
         text-transform: uppercase;
-        font-size: 27px;
+        font-size: 25px;
         margin-bottom: 9px;
+        text-align: center;
+        letter-spacing: -1px;
+        font-weight: 400;
     }
 
     .service-section .item p {
         line-height: 31px;
         margin-bottom: 0;
-        font-weight: lighter;
+        color: white;
+        text-align: center;
     }
     @media (min-width: 1200px) {
         .row {
@@ -324,6 +339,7 @@
 
 
     /* <<< About-me-section (formerly known as gallery-section) >>> */
+
     .a-image {
         background-image: url("/Stack of books.jpg");
         height: 100vh;
@@ -336,14 +352,16 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .about-me-section {
-        font-family: 'Inter', sans-serif;
+    .contact-section .container {
+
     }
     .about-me-section .title {
         padding-top: 50px;
         padding-left: 100px;
         margin-bottom: 50px;
         font-size: 34px;
+        font-weight: 400;
+        color: #12355b;
     }
 
     @media (max-width: 767px) {
@@ -355,8 +373,8 @@
     .about-me-details p {
         line-height: 31px;
         margin-bottom: 38px;
-        color: #111844;
-        font-weight: 600;
+        color: #12355b;
+        font-weight: 400;
     }
     .tm-work-item-inner {
         max-width: 360px;
@@ -403,7 +421,8 @@
         background-color: #6699cc;
         flex-direction: column;
         justify-content: center;
-        font-family: 'Inter', sans-serif;
+
+        display: flex;
     }
     .contact-section .title {
         padding-top: 50px;
@@ -411,6 +430,8 @@
         margin-bottom: 50px;
         color: #fff;
         font-size: 34px;
+        font-weight: 400;
+
     }
 
     .tm-contact-item-inner-2 { max-width: 330px; }
