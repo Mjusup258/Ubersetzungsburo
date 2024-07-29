@@ -28,6 +28,6 @@
 
 <div class="navbar">
     <button on:click={toggleSidebar} class="button">
-        <Hamburger bind:on={sidebar}/>
+        <Hamburger {sidebar}/>
     </button>
 </div>

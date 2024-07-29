@@ -1,8 +1,9 @@
+<!-- Hamburger.svelte -->
 <script>
-    export let open = true
+    export let sidebar = false;
 </script>
 
-<button class="hamburger-button" class:open on:click={() => open = !open}>
+<button class="hamburger-button" class:open={sidebar}>
     <svg width="32" height="24" viewBox="0 0 32 24">
         <line id="top" x1="0" y1="2" x2="32" y2="2"/>
         <line id="middle" x1="0" y1="12" x2="32" y2="12"/>

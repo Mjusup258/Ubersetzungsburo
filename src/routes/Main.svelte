@@ -1,8 +1,8 @@
 <script>
     import Icon from '@iconify/svelte';
 </script>
-<body>
 
+<body>
     <main>
         <div class="title-section t-image">
             <div class="container">
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <section class="service-section">
+        <section class="service-section" id="service">
             <div class="container">
                 <div class="row">
                     <div class="item col-md-4">
@@ -46,7 +46,7 @@
             </div>
         </section>
 
-        <section class="about-me-section a-image">
+        <section class="about-me-section a-image" id="about">
             <div class="container">
                 <div class="title text-left">
                     <h3>Über mich</h3>
@@ -205,10 +205,16 @@
     /* <<< Service section (formerly known as work-section) >>> */
 
     .service-section {
+        height: 100vh;
         padding-top: 90px!important;
         padding-bottom: 90px!important;
         background-color: #6699cc;
         font-family: 'Inter', sans-serif;
+    }
+    @media (max-width: 1200px) {
+        .service-section {
+            height: 100%;
+        }
     }
     .service-section .container {
         display: flex;
@@ -286,7 +292,7 @@
     }
     @media (min-width: 1200px) {
         .row {
-            --bs-gutter-x: 1rem;
+            --bs-gutter-x: 1.5rem;
             --bs-gutter-y: 0;
             display: flex;
             flex-wrap: wrap;
