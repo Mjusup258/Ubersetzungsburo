@@ -1,5 +1,5 @@
 <script>
-    export let open = false
+    export let open = true
 </script>
 
 <button class="hamburger-button" class:open on:click={() => open = !open}>

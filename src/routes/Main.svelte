@@ -76,25 +76,6 @@
                     <h3>Kontaktieren Sie mich</h3>
                 </div>
                 <div class="row">
-                    <!--
-                    <div class="col-lg-5 col-md-6 mb-4 contact-form">
-                        <div class="form tm-contact-item-inner">
-                            <form action="#" method="POST">
-                                <div class="form-group">
-                                    <input name="name" type="text" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="form-group">
-                                    <input name="email" type="text" class="form-control" placeholder="E-Mail">
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" class="textarea form-control" placeholder="Nachricht"></textarea>
-                                </div>
-                                <div class="form-group text-right">
-                                    <input type="submit" class="btn btn-primary" value="ABSENDEN">
-                                </div>
-                            </form>
-                        </div>
-                    </div>-->
                     <div class="contact-details">
                         <div class="tm-contact-item-inner-2">
                             <p><b>Haben Sie Fragen?  <br> Ich stehe Ihnen gerne zur Verfügung.</b></p>
@@ -228,11 +209,12 @@
     .service-section {
         padding-top: 90px!important;
         padding-bottom: 90px!important;
-        min-height: 850px;
         background-color: #6699cc;
         font-family: 'Inter', sans-serif;
     }
-    .service-section .container { max-width: 1242px; }
+    .service-section .container {
+        max-width: 1242px;
+    }
 
     .tm-service-item-inner {
         max-width: 360px;
@@ -248,12 +230,18 @@
     }
 
 
-    .service-section .item.one { margin-top: 80px; }
+    .service-section .item.one {
+        margin-top: 80px;
+    }
     @media (max-width: 767px) {
-        .service-section .item.one { margin-top: 0;}
+        .service-section .item.one {
+            margin-top: 0;
+        }
     }
 
-    .service-section .item.two { margin-top: 80px; }
+    .service-section .item.two {
+        margin-top: 80px;
+    }
 
     @media (max-width: 767px) {
         .service-section .item.two { margin-top: 0; }
@@ -291,7 +279,6 @@
         text-transform: uppercase;
         font-size: 27px;
         margin-bottom: 9px;
-
     }
 
     .service-section .item p {
@@ -299,7 +286,22 @@
         margin-bottom: 0;
         font-weight: lighter;
     }
+    @media (min-width: 1200px) {
+        .row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(var(--bs-gutter-y) * -1);
+            margin-right: calc(var(--bs-gutter-x) / -2);
+            margin-left: calc(var(--bs-gutter-x) / -2);
+        }
 
+        .col-md-4 {
+            flex: 0 0 auto;
+            width: calc((85%) * 0.33);
+        }
+    }
     /* <<< About-me-section (formerly known as gallery-section) >>> */
     .a-image {
         background-image: url("/Stack of books.jpg");
@@ -314,7 +316,6 @@
         background-attachment: fixed;
     }
     .about-me-section {
-        background-color: #99ccff;
         font-family: 'Inter', sans-serif;
     }
     .about-me-section .title {
@@ -325,11 +326,12 @@
     }
 
     @media (max-width: 767px) {
-        .about-me-section .title { margin-bottom: 40px; }
+        .about-me-section .title {
+            margin-bottom: 40px;
+        }
     }
 
     .about-me-details p {
-
         line-height: 31px;
         margin-bottom: 38px;
         color: #111844;
@@ -362,7 +364,9 @@
         text-decoration: none;
     }
 
-    .about-me-details ul li a:hover { color: #99ccff; }
+    .about-me-details ul li a:hover {
+        color: #99ccff;
+    }
 
     .tm-work-item-inner {
         margin-left: 200px; /*about me text location */
@@ -376,6 +380,9 @@
     /* <<< Contact-section >>> */
 
     .contact-section {
+        padding-top: 90px!important;
+        padding-bottom: 90px!important;
+        height: 100vh;
         background-color: #6699cc;
         flex-direction: column;
         justify-content: center;
@@ -389,12 +396,10 @@
         font-size: 34px;
     }
 
-    .contact-section .contact-form .form-group { margin-bottom: 24px; }
-    .tm-contact-item-inner { max-width: 360px; }
     .tm-contact-item-inner-2 { max-width: 330px; }
 
     .tm-contact-item-inner-2 {
-        margin-left: 200px; /*contact text location */
+        margin-left: 200px;
         margin-right: auto;
     }
 
