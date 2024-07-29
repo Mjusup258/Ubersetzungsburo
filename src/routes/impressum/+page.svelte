@@ -1,7 +1,6 @@
 <script>
     import Navbar from '../Navbar.svelte'
     import Sidebar from '../Sidebar.svelte'
-    import Impressum from './src/routes/impressum/Impressum.svelte'
 
     let open = false
 </script>
@@ -9,7 +8,6 @@
 <title>Übersetzungsbüro Vlado Stanić</title>
 <Sidebar bind:open/>
 <Navbar bind:sidebar={open}/>
-<Impressum/>
 
 
 <svelte:head>

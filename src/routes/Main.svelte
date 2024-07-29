@@ -202,6 +202,11 @@
         background-attachment: fixed;
     }
 
+
+
+
+
+
     /* <<< Service section (formerly known as work-section) >>> */
 
     .service-section {
@@ -312,6 +317,12 @@
             flex: 0 0 calc((100% - 15%) / 3);
         }
     }
+
+
+
+
+
+
     /* <<< About-me-section (formerly known as gallery-section) >>> */
     .a-image {
         background-image: url("/Stack of books.jpg");
@@ -450,6 +461,8 @@
         text-decoration: none;
     }
 
-    .contact-section .contact-details ul li a:hover { color: #99ccff; }
-    .contact-section .map { text-align: center; }
+    .contact-section .contact-details ul li a:hover {
+        color: #99ccff;
+    }
+
 </style>
