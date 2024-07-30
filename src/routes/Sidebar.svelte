@@ -69,6 +69,7 @@
         width: 25%;
         left: 100%;
         transition: left 0.3s ease-in-out;
+        justify-content: center;
     }
     @media (min-width: 768px) {
         aside {
@@ -109,7 +110,6 @@
         color: rgba(195, 223, 252, 0.8);
         line-height: 18px;
         font-weight: 400;
-
     }
     @media (max-width: 768px) {
         .img-text {
@@ -128,7 +128,6 @@
         margin-top: 15px;
         letter-spacing: -0.6px;
         justify-content: center;
-        margin-right: calc(20%);
     }
     .container :global(svg) {
         font-size: 35px;

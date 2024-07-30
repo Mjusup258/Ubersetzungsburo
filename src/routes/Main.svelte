@@ -211,7 +211,7 @@
         .title-section .simple p { font-size: 18px; }
     }
     .t-image {
-        background-image: url("static/section-1-title-img.jpg");
+        background-image: url("/section-1-title-img.jpg");
         height: 100vh;
         width: 100%;
         display: flex;
