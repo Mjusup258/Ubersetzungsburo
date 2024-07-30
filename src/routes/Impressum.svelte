@@ -230,7 +230,7 @@
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         font-weight: 302;
-        font-style: normal;
+
     }
 
     .title {
@@ -243,7 +243,8 @@
     }
     h3 {
         padding-top: 20px;
-        padding-left: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
         margin-bottom: 20px;
         font-size: 21px;
         font-weight: 500;
@@ -251,7 +252,8 @@
     }
     h4 {
         padding-top: 30px;
-        padding-left: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
         margin-bottom: 7px;
         font-size: 16px;
         font-weight: 500;
@@ -259,7 +261,8 @@
     }
     p {
         margin-top: 15px;
-        padding-left: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
         font-size: 15px;
         font-weight: 300;
         color: #12355b;
@@ -268,5 +271,7 @@
         padding-top: 5px;
         padding-bottom: 5px;
     }
+
+
 
 </style>

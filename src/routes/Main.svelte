@@ -143,6 +143,7 @@
         padding-top: 121px;
         align-items: flex-start;
         letter-spacing: -0.8px;
+        font-weight: 400;
     }
 
 
@@ -181,7 +182,10 @@
     }
 
     @media (max-width: 991px) {
-        .title-section .simple { margin-left: 0; }
+        .title-section .simple {
+            margin-left: 0;
+
+        }
     }
 
     @media (max-width: 767px) {
@@ -201,7 +205,7 @@
         .title-section .simple p { font-size: 18px; }
     }
     .t-image {
-        background-image: url("/section-1-bg.jpg");
+        background-image: url("static/section-1-title-img.jpg");
         height: 100vh;
         width: 100%;
         display: flex;
