@@ -4,7 +4,7 @@
     import Impressum from '../Impressum.svelte'
     import Main from "../Main.svelte";
 
-    let open = false
+    let open = true
 </script>
 
 <title>Übersetzungsbüro Vlado Stanić</title>
