@@ -348,7 +348,7 @@
     .a-image {
         background-image: url("/Stack of books.jpg");
         height: 100vh;
-        width: 100%;
+        max-width: 100%;
         display: flex;
         align-items: center;
         opacity: 0.8;
@@ -369,7 +369,11 @@
 
     @media (max-width: 767px) {
         .about-me-section .title {
-            margin-bottom: 40px;
+            align-content: center;
+        }
+
+        .about-me-section .about-me-details-box {
+            margin-left: -150px;
         }
     }
 
@@ -487,6 +491,16 @@
 
     .contact-section .contact-details ul li a:hover {
         color: #99ccff;
+    }
+    @media (max-width: 767px) {
+        .contact-section .title {
+            align-content: center;
+            margin-left: -50px;
+        }
+
+        .contact-section .contact-details {
+            margin-left: -150px;
+        }
     }
 
 </style>
