@@ -9,6 +9,12 @@
         let currentPath = window.location.pathname;
         baseUrl = currentPath === '/impressum' ? '/' : '';
     });
+
+    const finClick = () => {
+        if (window.innerWidth <= 768) {
+            open = false;
+        }
+    }
 </script>
 
 <aside class="absolute w-full h-full bg-gray-200 border-r-2 shadow-lg" class:open>
@@ -27,31 +33,31 @@
             </div>
         </div>
         <div class="spacer"></div>
-        <div class="container">
+        <button on:click={finClick} class="container">
             <a class="block" href="/">
                 <Icon icon="material-symbols-light:home" />Hauptseite
             </a>
-        </div>
-        <div class="container">
+        </button>
+        <button on:click={finClick} class="container">
             <a class="block" href={baseUrl + "#service"}>
                 <Icon icon="material-symbols-light:account-tree" />Service
             </a>
-        </div>
-        <div class="container">
+        </button>
+        <button on:click={finClick} class="container">
             <a class="block" href={baseUrl + "#about"}>
                 <Icon icon="material-symbols-light:frame-person-sharp" />Über mich
             </a>
-        </div>
-        <div class="container">
+        </button>
+        <button on:click={finClick} class="container">
             <a class="block" href={baseUrl +"#kontakt"}>
                 <Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt
             </a>
-        </div>
-        <div class="container">
+        </button>
+        <button on:click={finClick} class="container">
             <a class="block" href="/impressum">
                 <Icon icon="icomoon-free:section"/>Impressum
             </a>
-        </div>
+        </button>
     </nav>
 </aside>
 
