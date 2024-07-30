@@ -357,9 +357,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .contact-section .container {
 
-    }
     .about-me-section .title {
         padding-top: 50px;
         padding-left: 100px;
