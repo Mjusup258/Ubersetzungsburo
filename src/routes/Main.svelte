@@ -151,7 +151,7 @@
     }
 
     .title-section .logo-fa {
-        color: #fff;
+        color: #051525;
         max-width: 400px;
         margin-bottom: 60px;
         margin-left: 50px;
@@ -281,10 +281,11 @@
     }
 
     .service-section .item .service-icn {
+        background-color: #0e4072;
         width: 119px;
         height: 119px;
         display: block;
-        border: 1px solid #fff;
+        border: 2px solid #0e4072;
         border-radius: 100%;
         color: #fff;
         font-size: 82px;
@@ -307,7 +308,7 @@
     }
 
     .service-section .item h3 {
-        color: #12355b;
+        color: #0e4072;
         text-transform: uppercase;
         font-size: 25px;
         margin-bottom: 9px;
@@ -364,7 +365,7 @@
         margin-bottom: 50px;
         font-size: 34px;
         font-weight: 400;
-        color: #12355b;
+        color: #0e4072;
     }
 
     @media (max-width: 767px) {
@@ -380,7 +381,7 @@
     .about-me-details p {
         line-height: 31px;
         margin-bottom: 38px;
-        color: #12355b;
+        color: #0e4072;
         font-weight: 400;
     }
     .tm-work-item-inner {

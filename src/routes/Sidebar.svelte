@@ -33,31 +33,33 @@
             </div>
         </div>
         <div class="spacer"></div>
-        <button on:click={finClick} class="container">
-            <a class="block" href="/">
-                <Icon icon="material-symbols-light:home" />Hauptseite
-            </a>
-        </button>
-        <button on:click={finClick} class="container">
-            <a class="block" href={baseUrl + "#service"}>
-                <Icon icon="material-symbols-light:account-tree" />Service
-            </a>
-        </button>
-        <button on:click={finClick} class="container">
-            <a class="block" href={baseUrl + "#about"}>
-                <Icon icon="material-symbols-light:frame-person-sharp" />Über mich
-            </a>
-        </button>
-        <button on:click={finClick} class="container">
-            <a class="block" href={baseUrl +"#kontakt"}>
-                <Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt
-            </a>
-        </button>
-        <button on:click={finClick} class="container">
-            <a class="block" href="/impressum">
-                <Icon icon="icomoon-free:section"/>Impressum
-            </a>
-        </button>
+        <div class="menu-text-aligner">
+            <button on:click={finClick} class="container">
+                <a class="block" href="/">
+                    <Icon icon="material-symbols-light:home" />Hauptseite
+                </a>
+            </button>
+            <button on:click={finClick} class="container">
+                <a class="block" href={baseUrl + "#service"}>
+                    <Icon icon="material-symbols-light:account-tree" />Service
+                </a>
+            </button>
+            <button on:click={finClick} class="container">
+                <a class="block" href={baseUrl + "#about"}>
+                    <Icon icon="material-symbols-light:frame-person-sharp" />Über mich
+                </a>
+            </button>
+            <button on:click={finClick} class="container">
+                <a class="block" href={baseUrl +"#kontakt"}>
+                    <Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt
+                </a>
+            </button>
+            <button on:click={finClick} class="container">
+                <a class="block" href="/impressum">
+                    <Icon icon="icomoon-free:section"/>Impressum
+                </a>
+            </button>
+        </div>
     </nav>
 </aside>
 
@@ -65,7 +67,7 @@
     aside {
         z-index: 50;
         position: fixed;
-        background-color: #356ba2;
+        background-color: #0e4072;
         width: 25%;
         left: 100%;
         transition: left 0.3s ease-in-out;
@@ -104,10 +106,12 @@
     }
     .img-text {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 5px;
         font-size: 0.32cm;
-        color:  aliceblue;
-        line-height: 15px;
+        color: rgba(195, 223, 252, 0.8);
+        line-height: 16px;
+        font-weight: 400;
+
     }
     @media (max-width: 768px) {
         .img-text {
@@ -118,18 +122,18 @@
         max-width: 160px;
     }
     .spacer {
-        height: 20px;
+        height: 25px;
     }
     .container {
         display: flex;
         font-size: 25px;
         margin-top: 15px;
-        letter-spacing: -0.7px;
-        align-items: center;
+        letter-spacing: -0.6px;
+
     }
     @media (max-width: 768px) {
         .container {
-            justify-content: space-around;
+            justify-content: left;
         }
     }
     .container :global(svg) {
@@ -140,11 +144,16 @@
         display: flex;
         color:  aliceblue;
         align-items: center;
-        text-align: left;
+        text-align: center;
         transition: color 0.3s ease, background-color 0.3s ease;
         padding: 1px;
+
     }
     .block:hover {
         color: #aec8e3;
+    }
+
+    .menu-text-aligner {
+        justify-content: center;
     }
 </style>
