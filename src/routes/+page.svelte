@@ -1,9 +1,14 @@
 <script>
+    import {onMount} from "svelte";
     import Navbar from './Navbar.svelte';
     import Sidebar from './Sidebar.svelte';
     import Main from './Main.svelte';
 
     let open = true;
+
+    onMount(() => {
+        open = window.innerWidth > 768;
+    });
 </script>
 
 <title>Übersetzungsbüro Vlado Stanić</title>
