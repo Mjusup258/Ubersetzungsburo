@@ -7,12 +7,9 @@
         <div class="title-section t-image">
             <div class="container">
                 <div class="item">
-                    <div class="bg-blue-transparent logo-fa"><b>Ubersetzungsbüro<br>Vlado Stanić</b></div>
+                    <div class="bg-blue-transparent logo-fa"><b>Vlado Stanić</b></div>
                     <div class="bg-blue-transparent simple">
-                        <p>
-                            Vereidigte Übersetzer für die
-                            <br><b>
-                            bosnische, kroatische und serbische Sprache. </b></p></div>
+                        <p><b>Übersetzer für die bosnische, kroatische und serbische Sprache </b></p></div>
 
                 </div>
             </div>
@@ -25,14 +22,14 @@
                         <div class="tm-service-item-inner">
                             <div class="service-icn"><Icon icon="material-symbols-light:bookmark-star-sharp" /></div>
                             <h3>Kompetenz und Professionalität</h3>
-                            <p>Alle Texte werden sorgfältig übersetzt und mehrfach geprüft, um ein perfektes Ergebnis zu erzielen.</p>
+                            <p>Alle Texte werden sorgfältig übersetzt und mehrfach geprüft, um ein perfektes Ergebnis zu erzielen.  Selbstverständlich werden alle Aufträge vertraulich behandelt.</p>
                         </div>
                     </div>
                     <div class="item col-md-4 one">
                         <div class="tm-service-item-inner">
-                            <div class="service-icn"><Icon icon="material-symbols-light:order-approve-sharp" /></div>
-                            <h3>Qualitätssicherung</h3>
-                            <p>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG). Selbstverständlich behandle ich alle Aufträge vertraulich.</p>
+                            <div class="service-icn"><Icon icon="material-symbols-light:euro-symbol" /></div>
+                            <h3>Vergütung</h3>
+                            <p>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG).</p>
                         </div>
                     </div>
                     <div class="item col-md-4 two">
@@ -55,10 +52,10 @@
                     <div class="about-me-details-box">
                         <ul class="tm-work-item-inner">
                             <li>
-                                <p>Staatlich geprüfter, öffentlich bestellter und beeidigter Übersetzer für die bosnische, kroatische und serbische Sprache.</p>
+                                <p>Staatlich geprüfter, öffentlich bestellter und allgemein beeidigter Übersetzer für die bosnische, kroatische und serbische Sprache</p>
                             </li>
                             <li>
-                               <p>Maschinenbauingenieur Uni Zagreb - Konstrukteur im Bereich der Telekommunikation.</p>
+                               <p>Maschinenbauingenieur Uni Zagreb</p>
                             </li>
                             <li>
                                 <p>Tennislehrer / C-Lizenz / <br>Bayerischer Tennis-Verband</p>
@@ -164,7 +161,7 @@
         margin-left: 50px;
         padding-top: 43px;
         padding-bottom: 35px;
-        font-size: 35px;
+        font-size: 40px;
         background-color: rgb(102 153 204);
     }
 
