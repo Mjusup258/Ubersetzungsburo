@@ -82,24 +82,30 @@
                             <ul class="font-weight-light">
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:deskphone-sharp" /></span>
-                                    <span class="lbl">Tel:</span> <a href="+49 171 2971506">+49 911 89293933</a>
+                                    <span class="lbl">Tel:</span>
+                                    <span class="telephone">+49 911 89293933</span>
                                 </li>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:fax-sharp" /></span>
-                                    <span class="lbl">Fax:</span> <a href="+49 171 2971506">+49 911 25356400</a>
+                                    <span class="lbl">Fax:</span>
+                                    <span class="phone-number">+49 911 25356400</span>
                                 </li>
+
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:phone-iphone-sharp" /></span>
-                                    <span class="lbl">Mob:</span> <a href="+49 171 2971506">+49 171 2971506</a>
+                                    <span class="lbl">Mob:</span>
+                                    <span class="mobile-number">+49 171 2971506</span>
                                 </li>
                                 <br>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:stacked-email-sharp" /></span>
-                                    <span class="lbl">Email:</span> <a href="vlado.stanic@vodafonemail.de">vlado.stanic@vodafonemail.de</a>
+                                    <span class="lbl">Email:</span>
+                                    <a href="mailto:vlado.stanic@vodafonemail.de">vlado.stanic@vodafonemail.de</a>
                                 </li>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:globe" /></span>
-                                    <span class="lbl">URL:</span> <a href="www.vladostanic.de">www.vladostanic.de</a>
+                                    <span class="lbl">URL:</span>
+                                    <a href="www.vladostanic.de">www.vladostanic.de</a>
                                 </li>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:location-on" /></span>

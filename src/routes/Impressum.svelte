@@ -9,12 +9,12 @@
                 <div class="Angaben gemass"></div>
                 <p>Vlado Stanić<br>
                 Friedenstr. 16, D-90765 Fürth<br>
-                <a href="vlado.stanic@vodafonemail.de">vlado.stanic@vodafonemail.de</a><br>
+                <a href="mailto:vlado.stanic@vodafonemail.de">vlado.stanic@vodafonemail.de</a><br>
                 <a href="www.vladostanic.de">www.vladostanic.de</a><br>
                 <br>
-                Tel: <a href="Tel: +49 911 89293933">+49 911 89293933</a><br>
-                Fax: <a href="Fax: +49 911 25356400">+49 911 25356400</a><br>
-                Mob: <a href="Mob: +49 171 2971506">+49 171 2971506</a><br>
+                Tel: +49 911 89293933<br>
+                Fax: +49 911 25356400<br>
+                Mob: +49 171 2971506<br>
                 <br>
                 Geschäftsführer: Vlado Stanić<br>
                 Steuernummer: 218/276/50258</p>

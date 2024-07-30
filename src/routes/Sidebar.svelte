@@ -100,14 +100,14 @@
         text-align: center;
     }
     .img-logo {
-        max-width: 240px;
+        max-width: 260px;
     }
     .img-text {
         text-align: center;
         margin-top: 5px;
         font-size: 0.32cm;
         color: rgba(195, 223, 252, 0.8);
-        line-height: 16px;
+        line-height: 18px;
         font-weight: 400;
 
     }
@@ -145,5 +145,10 @@
     }
     .block:hover {
         color: #aec8e3;
+    }
+    .p-12 {
+        padding-top: 20px !important;
+        padding-right: 25px !important;
+        padding-left: 25px !important;
     }
 </style>
