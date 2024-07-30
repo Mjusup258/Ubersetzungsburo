@@ -64,6 +64,11 @@
         left: 100%;
         transition: left 0.3s ease-in-out
     }
+    @media (min-width: 768px) {
+        aside {
+            display: flex;
+        }
+    }
     @media (max-width: 768px) {
         aside {
             width: 100%;
@@ -113,19 +118,12 @@
         display: flex;
         font-size: 25px;
         margin-top: 15px;
-        margin-left: calc(15%);
         letter-spacing: -0.7px;
-    }
-    @media (max-width: 1000px) {
-        .container {
-            justify-content: space-around;
-            margin-left: calc(10% - 10px);
-        }
+        align-items: center;
     }
     @media (max-width: 768px) {
         .container {
             justify-content: space-around;
-            margin-left: 0;
         }
     }
     .container :global(svg) {
