@@ -181,7 +181,7 @@
     }
 
     .title-section .simple {
-        color: #fff;
+        color: #051525;
         display: inline-block;
         margin-left: 97px;
         padding: 33px 68px 34px 68px;
