@@ -1,15 +1,19 @@
 <script>
-    import Navbar from './Navbar.svelte'
-    import Sidebar from './Sidebar.svelte'
-    import Main from './Main.svelte'
+    import Navbar from './Navbar.svelte';
+    import Sidebar from './Sidebar.svelte';
+    import Main from './Main.svelte';
 
-    let open = true
+    let open = true;
 </script>
 
 <title>Übersetzungsbüro Vlado Stanić</title>
-<Sidebar bind:open/>
-<Navbar bind:sidebar={open}/>
-<Main/>
+
+<Sidebar bind:open />
+<Navbar bind:sidebar={open} />
+
+<div class:content-shifted={open}>
+    <Main />
+</div>
 
 <svelte:head>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"/>
@@ -18,5 +22,23 @@
 <style>
     :global(body) {
         padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    .content-shifted {
+        margin-right: 25%;
+        transition: margin-right 0.3s ease-in-out;
+    }
+    /* When the sidebar is closed */
+    div:not(.content-shifted) {
+        margin-right: 0;
+        transition: margin-right 0.3s ease-in-out;
+    }
+
+    @media (max-width: 768px) {
+        .content-shifted {
+            margin-left: 0;
+        }
     }
 </style>

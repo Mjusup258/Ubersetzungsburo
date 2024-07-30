@@ -62,7 +62,7 @@
         background-color: #356ba2;
         width: 25%;
         left: 100%;
-        transition: left 0.3s ease-in-out
+        transition: left 0.3s ease-in-out;
     }
     @media (min-width: 768px) {
         aside {
