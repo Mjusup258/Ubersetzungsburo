@@ -27,16 +27,16 @@
                     </div>
                     <div class="item col-md-4 one">
                         <div class="tm-service-item-inner">
-                            <div class="service-icn"><Icon icon="material-symbols-light:euro-symbol" /></div>
-                            <h3>Vergütung</h3>
-                            <p>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG).</p>
+                            <div class="service-icn"><Icon icon="material-symbols-light:content-paste-search-sharp" /></div>
+                            <h3>Individuelle Lösungen</h3>
+                            <p>Persönlicher Service: <br>Ihre Wünsche stehen im Mittelpunkt. </p>
                         </div>
                     </div>
                     <div class="item col-md-4 two">
                         <div class="tm-service-item-inner">
-                            <div class="service-icn"><Icon icon="material-symbols-light:content-paste-search-sharp" /></div>
-                            <h3>Individuelle Lösungen</h3>
-                            <p>Persönlicher Service: <br>Ihre Wünsche stehen im Mittelpunkt. </p>
+                            <div class="service-icn" ><Icon icon="material-symbols-light:euro-symbol" /></div>
+                            <h3>Vergütung</h3>
+                            <p>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG).</p>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
     }
 
     .title-section .logo-fa {
-        color: #051525;
+        color: #002c54;
         max-width: 400px;
         margin-bottom: 60px;
         margin-left: 50px;
@@ -178,7 +178,7 @@
     }
 
     .title-section .simple {
-        color: #051525;
+        color: #002c54;
         display: inline-block;
         margin-left: 97px;
         padding: 33px 68px 34px 68px;
@@ -248,6 +248,7 @@
         display: flex;
         margin-left: 5%;
     }
+
 
     .tm-service-item-inner {
         max-width: 360px;
