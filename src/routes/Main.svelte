@@ -80,18 +80,18 @@
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:deskphone-rounded" /></span>
                                     <span class="lbl">Tel:</span>
-                                    <a href="+49 911 89293933">+49 911 89293933</a>
+                                    <span>+49 911 89293933</span>
                                 </li>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:fax-rounded" /></span>
                                     <span class="lbl">Fax:</span>
-                                    <a href="+49 911 25356400">+49 911 25356400</a>
+                                    <span>+49 911 25356400</span>
                                 </li>
 
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:phone-iphone" /></span>
                                     <span class="lbl">Mob:</span>
-                                    <a href="+49 171 2971506">+49 171 2971506</a>
+                                    <span>+49 171 2971506</span>
                                 </li>
                                 <br>
                                 <li>
@@ -245,6 +245,12 @@
         justify-content: center; /* Centers items horizontally */
         flex-wrap: wrap;
         margin-left: 5%;
+        margin-top: 45px;
+    }
+    @media (max-width: 767px) {
+        .service-section .container{
+            margin-left: 0;
+        }
     }
 
     .tm-service-item-inner {
