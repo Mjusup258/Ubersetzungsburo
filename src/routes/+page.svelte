@@ -1,5 +1,5 @@
 <script>
-    import {onMount} from "svelte";
+    import { onMount } from "svelte";
     import Navbar from './Navbar.svelte';
     import Sidebar from './Sidebar.svelte';
     import Main from './Main.svelte';
@@ -9,6 +9,17 @@
     onMount(() => {
         open = window.innerWidth > 768;
     });
+
+    $: {
+        // Disable scrolling when sidebar is open, only on the client
+        if (typeof document !== 'undefined') {
+            if (open) {
+                document.body.classList.add('no-scroll');
+            } else {
+                document.body.classList.remove('no-scroll');
+            }
+        }
+    }
 </script>
 
 <title>Übersetzungsbüro Vlado Stanić</title>
@@ -45,5 +56,8 @@
         .content-shifted {
             margin-left: 0;
         }
+    }
+    :global(.no-scroll) {
+        overflow: hidden;
     }
 </style>
