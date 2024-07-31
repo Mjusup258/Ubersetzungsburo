@@ -144,25 +144,27 @@
         text-align: center;
         background-color: #99ccff;
         padding-top: 121px;
-        align-items: flex-start;
         letter-spacing: -0.8px;
         font-weight: 400;
+        display: flex;
+        justify-content: center; /* Center the flex items horizontally */
+        align-items: center; /* Center the flex items vertically */
+        min-height: 100vh; /* Ensure full screen height */
     }
 
-
     .bg-blue-transparent {
-        background-color: rgb(102 153 204 / 0.7);
+        background-color: rgba(102, 153, 204, 0.7);
     }
 
     .title-section .logo-fa {
         color: #002c54;
         max-width: 400px;
         margin-bottom: 60px;
-        margin-left: 50px;
         padding-top: 43px;
         padding-bottom: 35px;
         font-size: 40px;
-        background-color: rgb(102 153 204 / 0.7);
+        background-color: rgba(102, 153, 204, 0.7);
+        margin-left: 5%;
     }
 
     @media (max-width: 991px) {
@@ -180,19 +182,18 @@
     .title-section .simple {
         color: #002c54;
         display: inline-block;
-        margin-left: 97px;
-        padding: 33px 68px 34px 68px;
+        margin-bottom: 30px;
+        padding: 33px 68px;
     }
 
     @media (max-width: 991px) {
         .title-section .simple {
-            margin-left: 0;
-
+            padding: 30px 40px;
         }
     }
 
     @media (max-width: 767px) {
-        .title-section .simple { padding: 16px 34px 17px 34px; }
+        .title-section .simple { padding: 16px 34px; }
     }
 
     .title-section .simple p {
@@ -207,18 +208,21 @@
     @media (max-width: 575px) {
         .title-section .simple p { font-size: 18px; }
     }
+
     .t-image {
         background-image: url("/section-1-title-img.jpg");
         height: 100vh;
         width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
         opacity: 0.8;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
 
 
 
