@@ -80,18 +80,18 @@
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:deskphone-rounded" /></span>
                                     <span class="lbl">Tel:</span>
-                                    <span class="telephone">+49 911 89293933</span>
+                                    <a href="+49 911 89293933">+49 911 89293933</a>
                                 </li>
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:fax-rounded" /></span>
                                     <span class="lbl">Fax:</span>
-                                    <span class="phone-number">+49 911 25356400</span>
+                                    <a href="+49 911 25356400">+49 911 25356400</a>
                                 </li>
 
                                 <li>
                                     <span class="icn"><Icon icon="material-symbols-light:phone-iphone" /></span>
                                     <span class="lbl">Mob:</span>
-                                    <span class="mobile-number">+49 171 2971506</span>
+                                    <a href="+49 171 2971506">+49 171 2971506</a>
                                 </li>
                                 <br>
                                 <li>
