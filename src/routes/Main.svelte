@@ -20,21 +20,21 @@
                 <div class="row">
                     <div class="item col-md-4">
                         <div class="tm-service-item-inner">
-                            <div class="service-icn"><Icon icon="material-symbols-light:bookmark-star-sharp" /></div>
+                            <div class="service-icn"><Icon icon="material-symbols-light:bookmark-star-rounded" /></div>
                             <h3>Kompetenz und Professionalität</h3>
                             <p>Alle Texte werden sorgfältig übersetzt und mehrfach geprüft, um ein perfektes Ergebnis zu erzielen.  Selbstverständlich werden alle Aufträge vertraulich behandelt.</p>
                         </div>
                     </div>
                     <div class="item col-md-4 one">
                         <div class="tm-service-item-inner">
-                            <div class="service-icn"><Icon icon="material-symbols-light:content-paste-search-sharp" /></div>
+                            <div class="service-icn"><Icon icon="material-symbols-light:content-paste-search-rounded" /></div>
                             <h3>Individuelle Lösungen</h3>
                             <p>Persönlicher Service: <br>Ihre Wünsche stehen im Mittelpunkt. </p>
                         </div>
                     </div>
                     <div class="item col-md-4 two">
                         <div class="tm-service-item-inner">
-                            <div class="service-icn" ><Icon icon="material-symbols-light:euro-symbol" /></div>
+                            <div class="service-icn" ><Icon icon="material-symbols-light:euro-symbol-rounded" /></div>
                             <h3>Vergütung</h3>
                             <p>Die Vergütung richtet sich nach dem Justizvergütungs- und Entschädigungsgesetz (JVEG).</p>
                         </div>
@@ -78,24 +78,24 @@
                             <p><b>Haben Sie Fragen?  <br> Ich stehe Ihnen gerne zur Verfügung.</b></p>
                             <ul class="font-weight-light">
                                 <li>
-                                    <span class="icn"><Icon icon="material-symbols-light:deskphone-sharp" /></span>
+                                    <span class="icn"><Icon icon="material-symbols-light:deskphone-rounded" /></span>
                                     <span class="lbl">Tel:</span>
                                     <span class="telephone">+49 911 89293933</span>
                                 </li>
                                 <li>
-                                    <span class="icn"><Icon icon="material-symbols-light:fax-sharp" /></span>
+                                    <span class="icn"><Icon icon="material-symbols-light:fax-rounded" /></span>
                                     <span class="lbl">Fax:</span>
                                     <span class="phone-number">+49 911 25356400</span>
                                 </li>
 
                                 <li>
-                                    <span class="icn"><Icon icon="material-symbols-light:phone-iphone-sharp" /></span>
+                                    <span class="icn"><Icon icon="material-symbols-light:phone-iphone" /></span>
                                     <span class="lbl">Mob:</span>
                                     <span class="mobile-number">+49 171 2971506</span>
                                 </li>
                                 <br>
                                 <li>
-                                    <span class="icn"><Icon icon="material-symbols-light:stacked-email-sharp" /></span>
+                                    <span class="icn"><Icon icon="material-symbols-light:stacked-email-rounded" /></span>
                                     <span class="lbl">Email:</span>
                                     <a href="mailto:vlado.stanic@vodafonemail.de">vlado.stanic@vodafonemail.de</a>
                                 </li>
@@ -105,7 +105,7 @@
                                     <a href="www.vladostanic.de">www.vladostanic.de</a>
                                 </li>
                                 <li>
-                                    <span class="icn"><Icon icon="material-symbols-light:location-on" /></span>
+                                    <span class="icn"><Icon icon="material-symbols-light:location-on-rounded" /></span>
                                     <span class="lbl">Ort:</span>
                                     <a href="https://maps.app.goo.gl/RLtDzeDvMFikXjkx5" target="_blank" rel="noopener noreferrer">
                                         Friedenstr. 16, 90765 Fürth
