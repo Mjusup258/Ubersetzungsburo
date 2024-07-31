@@ -228,27 +228,20 @@
     /* <<< Service section (formerly known as work-section) >>> */
 
     .service-section {
-        height: 100vh;
-        padding-top: 100px!important;
-        padding-bottom: 90px!important;
+        display: flex;
+        align-items: center; /* Centers items vertically */
+        justify-content: center; /* Centers items horizontally */
+        min-height: 100vh; /* Ensures the section takes at least the full viewport height */
+        padding-top: 0; /* Remove unnecessary padding */
+        padding-bottom: 0; /* Remove unnecessary padding */
         background-color: #6699cc;
     }
-    @media (min-width: 1200px) {
-        .service-section{
-            padding-top: 100px !important;
-        }
-    }
-    @media (max-width: 1200px) {
-        .service-section {
-            height: 100%;
-        }
-    }
-
     .service-section .container {
         display: flex;
+        justify-content: center; /* Centers items horizontally */
+        flex-wrap: wrap;
         margin-left: 5%;
     }
-
 
     .tm-service-item-inner {
         max-width: 360px;

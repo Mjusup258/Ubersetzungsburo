@@ -270,11 +270,6 @@
     }
 
     body {
-        max-width: calc(25% + 700px);
-    }
-    @media (min-width: 2000px){
-        body {
-            margin-left: calc(10%);
-        }
+        max-width: calc(25% + 758px);
     }
 </style>
