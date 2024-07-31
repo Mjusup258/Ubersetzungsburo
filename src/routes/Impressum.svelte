@@ -270,6 +270,9 @@
     }
 
     body {
-        max-width: calc(25% + 758px);
+        max-width: calc(25% + 700px); /* Total width of content including the sidebar */
+        margin: 0 auto; /* Center the body horizontally */
+        align-items: center;
+        justify-content: center;
     }
 </style>
