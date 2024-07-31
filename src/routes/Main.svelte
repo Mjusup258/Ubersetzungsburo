@@ -151,7 +151,7 @@
 
 
     .bg-blue-transparent {
-        background-color: rgb(102 153 204 / 0.8);
+        background-color: rgb(102 153 204 / 0.7);
     }
 
     .title-section .logo-fa {
@@ -162,7 +162,7 @@
         padding-top: 43px;
         padding-bottom: 35px;
         font-size: 40px;
-        background-color: rgb(102 153 204);
+        background-color: rgb(102 153 204 / 0.7);
     }
 
     @media (max-width: 991px) {
