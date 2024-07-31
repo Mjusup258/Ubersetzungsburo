@@ -35,22 +35,22 @@
         <div class="spacer"></div>
         <button on:click={finClick} class="container">
             <a class="block" href="/">
-                <Icon icon="material-symbols-light:home" />Hauptseite&nbsp;&nbsp;&nbsp;
+                <Icon icon="material-symbols-light:home-rounded" />Hauptseite&nbsp;&nbsp;&nbsp;
             </a>
         </button>
         <button on:click={finClick} class="container">
             <a class="block" href={baseUrl + "#service"}>
-                <Icon icon="material-symbols-light:account-tree" />Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <Icon icon="material-symbols-light:account-tree-rounded" />Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
         </button>
         <button on:click={finClick} class="container">
             <a class="block" href={baseUrl + "#about"}>
-                <Icon icon="material-symbols-light:frame-person-sharp" />Über mich&nbsp;&nbsp;&nbsp;
+                <Icon icon="material-symbols-light:person-pin-rounded" />Über mich&nbsp;&nbsp;&nbsp;
             </a>
         </button>
         <button on:click={finClick} class="container">
             <a class="block" href={baseUrl +"#kontakt"}>
-                <Icon icon="material-symbols-light:perm-phone-msg-sharp" />Kontakt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <Icon icon="material-symbols-light:phone-in-talk-rounded" />Kontakt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
         </button>
         <button on:click={finClick} class="container">
