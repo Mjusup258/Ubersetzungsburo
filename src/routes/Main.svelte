@@ -142,7 +142,6 @@
     .title-section {
         position: relative;
         text-align: center;
-        background-color: #0e4072;
         padding-top: 121px;
         letter-spacing: -0.8px;
         font-weight: 400;
@@ -163,7 +162,6 @@
         padding-top: 43px;
         padding-bottom: 35px;
         font-size: 40px;
-        background-color: #0e4072;
         margin-left: 5%;
     }
 
@@ -216,7 +214,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        opacity: 0.8;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
