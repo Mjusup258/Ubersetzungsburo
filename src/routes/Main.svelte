@@ -7,8 +7,8 @@
         <div class="title-section t-image">
             <div class="container">
                 <div class="item">
-                    <div class="bg-blue-transparent logo-fa"><b>Vlado Stanić</b></div>
-                    <div class="bg-blue-transparent simple">
+                    <div class="bg-blue logo-fa"><b>Vlado Stanić</b></div>
+                    <div class="bg-blue simple">
                         <p><b>Übersetzer für die bosnische, kroatische und serbische Sprache </b></p></div>
 
                 </div>
@@ -142,7 +142,7 @@
     .title-section {
         position: relative;
         text-align: center;
-        background-color: #99ccff;
+        background-color: #0e4072;
         padding-top: 121px;
         letter-spacing: -0.8px;
         font-weight: 400;
@@ -152,18 +152,18 @@
         min-height: 100vh; /* Ensure full screen height */
     }
 
-    .bg-blue-transparent {
-        background-color: rgba(102, 153, 204, 0.7);
+    .bg-blue {
+        background-color: #0e4072;
     }
 
     .title-section .logo-fa {
-        color: #002c54;
+        color: #ffffff;
         max-width: 400px;
         margin-bottom: 60px;
         padding-top: 43px;
         padding-bottom: 35px;
         font-size: 40px;
-        background-color: rgba(102, 153, 204, 0.7);
+        background-color: #0e4072;
         margin-left: 5%;
     }
 
@@ -180,7 +180,7 @@
     }
 
     .title-section .simple {
-        color: #002c54;
+        color: #ffffff;
         display: inline-block;
         margin-bottom: 30px;
         padding: 33px 68px;
@@ -210,7 +210,7 @@
     }
 
     .t-image {
-        background-image: url("/section-1-title-img.jpg");
+        background-image: url("/Book-wallpaper.PNG");
         height: 100vh;
         width: 100%;
         display: flex;
