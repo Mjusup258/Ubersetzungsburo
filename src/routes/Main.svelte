@@ -142,7 +142,6 @@
     .title-section {
         position: relative;
         text-align: center;
-        background-color: #99ccff;
         padding-top: 121px;
         letter-spacing: -0.8px;
         font-weight: 400;
@@ -210,17 +209,16 @@
     }
 
     .t-image {
-        background-image: url("/ubersetzung-section1-background.jpeg");
+        background-image: url("/ubersetzung-section1-background.jpg");
         height: 100vh;
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
         opacity: 0.8;
         background-size: cover;
         background-position: right;
         background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 
 
