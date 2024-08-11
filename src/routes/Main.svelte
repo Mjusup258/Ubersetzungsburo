@@ -7,8 +7,8 @@
         <div class="title-section t-image">
             <div class="container">
                 <div class="item">
-                    <div class="bg-blue logo-fa"><b>Vlado Stanić</b></div>
-                    <div class="bg-blue simple">
+                    <div class="bg-blue-transparent logo-fa"><b>Vlado Stanić</b></div>
+                    <div class="bg-blue-transparent simple">
                         <p><b>Übersetzer für die bosnische, kroatische und serbische Sprache </b></p></div>
 
                 </div>
@@ -142,6 +142,7 @@
     .title-section {
         position: relative;
         text-align: center;
+        background-color: #99ccff;
         padding-top: 121px;
         letter-spacing: -0.8px;
         font-weight: 400;
@@ -151,17 +152,18 @@
         min-height: 100vh; /* Ensure full screen height */
     }
 
-    .bg-blue {
-        background-color: #0e4072;
+    .bg-blue-transparent {
+        background-color: rgba(102, 153, 204, 0.7);
     }
 
     .title-section .logo-fa {
-        color: #ffffff;
+        color: #002c54;
         max-width: 400px;
         margin-bottom: 60px;
         padding-top: 43px;
         padding-bottom: 35px;
         font-size: 40px;
+        background-color: rgba(102, 153, 204, 0.7);
         margin-left: 5%;
     }
 
@@ -178,7 +180,7 @@
     }
 
     .title-section .simple {
-        color: #ffffff;
+        color: #002c54;
         display: inline-block;
         margin-bottom: 30px;
         padding: 33px 68px;
@@ -208,17 +210,19 @@
     }
 
     .t-image {
-        background-image: url("/Book-wallpaper.PNG");
+        background-image: url("/ubersetzung-section1-background.jpeg");
         height: 100vh;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        opacity: 0.8;
         background-size: cover;
-        background-position: center;
+        background-position: right;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
+
 
 
 
