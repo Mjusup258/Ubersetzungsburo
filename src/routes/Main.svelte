@@ -320,7 +320,7 @@
     .service-section .item h3 {
         color: #0e4072;
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 26px;
         margin-bottom: 9px;
         text-align: center;
         letter-spacing: -1px;
@@ -332,6 +332,7 @@
         margin-bottom: 0;
         color: white;
         text-align: center;
+        font-size: 17px;
     }
     @media (min-width: 1200px) {
         .row {
@@ -386,6 +387,11 @@
         .about-me-section .about-me-details-box {
             margin-left: -150px;
         }
+        .about-me-details p {
+            line-height: 31px;
+            margin-bottom: 38px;
+            margin-right: 5%;
+        }
     }
 
     .about-me-details p {
@@ -393,6 +399,7 @@
         margin-bottom: 38px;
         color: #0e4072;
         font-weight: 400;
+        font-size: 17px;
     }
     .tm-work-item-inner {
         max-width: 360px;
@@ -425,6 +432,16 @@
         color: #99ccff;
     }
 
+    @media (max-width: 767px) {
+        .about-me-section {
+
+        }
+    }
+
+
+
+
+
 
 
 
@@ -439,7 +456,6 @@
         background-color: #6699cc;
         flex-direction: column;
         justify-content: center;
-
         display: flex;
     }
     .contact-section .title {
@@ -467,6 +483,7 @@
         color: #fff;
         line-height: 31px;
         margin-bottom: 38px;
+        font-size: 16px;
     }
 
     .contact-section .contact-details ul {
